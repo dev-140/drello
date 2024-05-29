@@ -1,0 +1,16 @@
+.navbar {
+    .navbar-brand {
+        .logo {
+            height: 29px;
+            width: 93px;
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                @include montserrat(18px, 700);
+            }
+        }
+    }
+}

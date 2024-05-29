@@ -1,0 +1,14 @@
+body {
+    background-color: $floral-white;
+}
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@mixin montserrat($fontSize, $weight) {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-size: $fontSize;
+    font-style: normal;
+}
