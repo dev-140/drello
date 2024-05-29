@@ -17,6 +17,14 @@ body {
 .btn {
     box-sizing: border-box !important;
 
+    &--big {
+        padding: 18px 53px;
+    }
+
+    &--small {
+        font-size: 16px !important;
+    }
+
     &.btn-primary {
         background-color: $dark-main;
         border: solid 1px $dark-main;
@@ -28,8 +36,24 @@ body {
             border: solid 1px $dark-main;
         }
     }
+}
 
-    &--big {
-        padding: 18px 53px;
+// heading
+.heading-main {
+    @include montserrat(40px, 700);
+    color: $dark-main;
+}
+
+.card {
+    .card-body {
+        background-color: $dust-storm;
+    }
+
+    &-title {
+        @include montserrat(16px, 700);
+    }
+
+    &-price {
+        @include montserrat(16, 700);
     }
 }

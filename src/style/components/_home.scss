@@ -60,11 +60,6 @@
     }
 
     .section-two {
-        &__heading {
-            @include montserrat(40px, 700);
-            color: $dark-main;
-        }
-
         &__desc {
             @include montserrat(18px, 500);
         }

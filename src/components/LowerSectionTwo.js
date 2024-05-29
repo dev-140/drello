@@ -6,7 +6,7 @@ function LowerSectionTwo() {
         <div className='section-two container pt-5 pb-5'>
             <div className='row'>
                 <div className='col'>
-                    <h3 className='section-two__heading pb-2 text-center'>
+                    <h3 className='heading-main pb-2 text-center'>
                         Why Choose Us
                     </h3>
                     <p className='section-two__desc text-center pb-5'>

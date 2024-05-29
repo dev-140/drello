@@ -6,6 +6,12 @@ body {
 .btn {
   box-sizing: border-box !important;
 }
+.btn--big {
+  padding: 18px 53px;
+}
+.btn--small {
+  font-size: 16px !important;
+}
 .btn.btn-primary {
   background-color: #2a1b12;
   border: solid 1px #2a1b12;
@@ -20,8 +26,32 @@ body {
   color: #2a1b12;
   border: solid 1px #2a1b12;
 }
-.btn--big {
-  padding: 18px 53px;
+
+.heading-main {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  color: #2a1b12;
+}
+
+.card .card-body {
+  background-color: #ddc7bb;
+}
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+}
+.card-price {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16;
+  font-style: normal;
 }
 
 .navbar {
@@ -141,14 +171,6 @@ body {
   .main-section-maincontainer .section-one__label {
     font-size: 15px;
   }
-}
-.main-section-maincontainer .section-two__heading {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-size: 40px;
-  font-style: normal;
-  color: #2a1b12;
 }
 .main-section-maincontainer .section-two__desc {
   font-family: "Montserrat", sans-serif;
