@@ -12,3 +12,21 @@ body {
     font-size: $fontSize;
     font-style: normal;
 }
+
+// buttons
+.btn {
+    box-sizing: border-box !important;
+
+    &.btn-primary {
+        background-color: $dark-main;
+        border: solid 1px $dark-main;
+        padding: 18px 53px;
+        @include montserrat(18px, 500);
+
+        &:active {
+            background-color: $floral-white;
+            color: $dark-main;
+            border: solid 1px $dark-main;
+        }
+    }
+}

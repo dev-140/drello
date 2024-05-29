@@ -3,14 +3,57 @@ body {
   background-color: #fef7f2;
 }
 
+.btn {
+  box-sizing: border-box !important;
+}
+.btn.btn-primary {
+  background-color: #2a1b12;
+  border: solid 1px #2a1b12;
+  padding: 18px 53px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+}
+.btn.btn-primary:active {
+  background-color: #fef7f2;
+  color: #2a1b12;
+  border: solid 1px #2a1b12;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.navbar .navbar-brand {
+  cursor: pointer;
+}
 .navbar .navbar-brand .logo {
   height: 29px;
   width: 93px;
+}
+.navbar .navbar-nav .nav-item {
+  cursor: pointer;
 }
 .navbar .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 18px;
+  font-style: normal;
+}
+
+.hero-main {
+  height: 100vh;
+}
+.hero-main .hero-image {
+  width: 100%;
+}
+.hero-main .hero-text {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 18;
   font-style: normal;
 }/*# sourceMappingURL=style.css.map */

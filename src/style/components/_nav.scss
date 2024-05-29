@@ -1,5 +1,10 @@
 .navbar {
+    position: fixed;
+    width: 100%;
+
     .navbar-brand {
+        cursor: pointer;
+
         .logo {
             height: 29px;
             width: 93px;
@@ -8,6 +13,7 @@
 
     .navbar-nav {
         .nav-item {
+            cursor: pointer;
             .nav-link {
                 @include montserrat(18px, 700);
             }

@@ -1,0 +1,11 @@
+.hero-main {
+    height: 100vh;
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-text {
+        @include montserrat(18, 700);
+    }
+}
