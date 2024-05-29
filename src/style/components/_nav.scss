@@ -1,6 +1,11 @@
 .navbar {
     position: fixed;
     width: 100%;
+    background-color: $floral-white;
+
+    @media (max-width: 768px) {
+        box-shadow: 0px 22px 37px -14px rgba(0, 0, 0, 0.75);
+    }
 
     .navbar-brand {
         cursor: pointer;
@@ -13,6 +18,14 @@
 
     .navbar-nav {
         .nav-item {
+            @media (max-width: 768px) {
+                border-bottom: solid 1px $dark-main;
+
+                &:last-child {
+                    border: none;
+                }
+            }
+
             cursor: pointer;
             .nav-link {
                 @include montserrat(18px, 700);

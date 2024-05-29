@@ -17,7 +17,9 @@ function HeroBanner() {
                     </div>
                     <div className='row'>
                         <div className='col'>
-                            <button className='btn btn-primary'>Signup</button>
+                            <button className='btn btn-primary btn--big'>
+                                Signup
+                            </button>
                         </div>
                     </div>
                 </div>

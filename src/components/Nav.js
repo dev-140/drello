@@ -46,6 +46,16 @@ function Nav() {
                         <li className='nav-item'>
                             <a className='nav-link'>Contacts</a>
                         </li>
+                        <li className='nav-item'>
+                            <a className='nav-link'>
+                                <i class='bi bi-search'></i>
+                            </a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link'>
+                                <i class='bi bi-person'></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

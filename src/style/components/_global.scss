@@ -20,7 +20,6 @@ body {
     &.btn-primary {
         background-color: $dark-main;
         border: solid 1px $dark-main;
-        padding: 18px 53px;
         @include montserrat(18px, 500);
 
         &:active {
@@ -28,5 +27,9 @@ body {
             color: $dark-main;
             border: solid 1px $dark-main;
         }
+    }
+
+    &--big {
+        padding: 18px 53px;
     }
 }
