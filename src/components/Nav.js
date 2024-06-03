@@ -17,7 +17,7 @@ function Nav() {
                     <img className='logo' src={logo} alt='dwello logo' />
                 </a>
                 <button
-                    class='navbar-toggler'
+                    className='navbar-toggler'
                     type='button'
                     data-bs-toggle='collapse'
                     data-bs-target='#navbarNav'
@@ -25,7 +25,7 @@ function Nav() {
                     aria-expanded='false'
                     aria-label='Toggle navigation'
                 >
-                    <span class='navbar-toggler-icon'></span>
+                    <span className='navbar-toggler-icon'></span>
                 </button>
                 <div
                     className='collapse navbar-collapse justify-content-end'
@@ -48,12 +48,12 @@ function Nav() {
                         </li>
                         <li className='nav-item'>
                             <a className='nav-link'>
-                                <i class='bi bi-search'></i>
+                                <i className='bi bi-search'></i>
                             </a>
                         </li>
                         <li className='nav-item'>
                             <a className='nav-link'>
-                                <i class='bi bi-person'></i>
+                                <i className='bi bi-person'></i>
                             </a>
                         </li>
                     </ul>

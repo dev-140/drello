@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import "./style/style.css";
+import Contact from "./components/Contact";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <HeroBanner></HeroBanner>
             <Main></Main>
             <About></About>
+            <Contact></Contact>
         </div>
     );
 }

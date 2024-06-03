@@ -60,6 +60,20 @@ body {
   font-style: normal;
 }
 
+.text--main {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 12;
+  font-style: normal;
+  color: #2a1b12;
+}
+
+.width--fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .navbar {
   z-index: 9;
   position: fixed;
@@ -227,4 +241,8 @@ body {
 }
 .main-section-maincontainer .section-three .slick-dots {
   bottom: -50px;
+}
+
+.contact-main-container {
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

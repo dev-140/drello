@@ -3,12 +3,16 @@ import image from "../assets/section-one-img.svg";
 
 function LowerSectionOne() {
     return (
-        <div class='section-one container pt-5 pb-5'>
-            <div class='row justify-content-center justify-content-lg-between'>
-                <div class='col-12 col-md-8 col-lg-6 mb-5 mb-lg-0'>
-                    <img class='section-one__image' src={image} alt='house' />
+        <div className='section-one container pt-5 pb-5'>
+            <div className='row justify-content-center justify-content-lg-between'>
+                <div className='col-12 col-md-8 col-lg-6 mb-5 mb-lg-0'>
+                    <img
+                        className='section-one__image'
+                        src={image}
+                        alt='house'
+                    />
                 </div>
-                <div class='col-12 col-lg-6 col-xl-5'>
+                <div className='col-12 col-lg-6 col-xl-5'>
                     <h3 className='section-one__heading text-center text-lg-start'>
                         We Help You To Find Your Dream Home
                     </h3>
@@ -17,8 +21,8 @@ function LowerSectionOne() {
                         team guides you through every step of the journey,
                         ensuring your dream home becomes a reality.
                     </p>
-                    <div class='row'>
-                        <div class='col'>
+                    <div className='row'>
+                        <div className='col'>
                             <h3 className='section-one__quantity text-center text-lg-start'>
                                 8K+
                             </h3>
@@ -26,7 +30,7 @@ function LowerSectionOne() {
                                 Houses Available
                             </p>
                         </div>
-                        <div class='col'>
+                        <div className='col'>
                             <h3 className='section-one__quantity text-center text-lg-start'>
                                 6K+
                             </h3>
@@ -34,7 +38,7 @@ function LowerSectionOne() {
                                 Houses Sold
                             </p>
                         </div>
-                        <div class='col'>
+                        <div className='col'>
                             <h3 className='section-one__quantity text-center text-lg-start'>
                                 2K+
                             </h3>

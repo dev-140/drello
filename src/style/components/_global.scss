@@ -63,3 +63,16 @@ body {
         @include montserrat(16, 700);
     }
 }
+
+.text {
+    &--main {
+        @include montserrat(12, 700);
+        color: $dark-main;
+    }
+}
+
+.width {
+    &--fit {
+        width: fit-content;
+    }
+}

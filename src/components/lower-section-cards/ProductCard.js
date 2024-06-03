@@ -8,19 +8,21 @@ function ProductCard(props) {
                 <div className='card'>
                     <img
                         src={image}
-                        class='card-img-top'
+                        className='card-img-top'
                         alt='sample product'
                     />
                     <div className='card-body'>
                         <h5 className='card-title'>
-                            <i class='bi bi-geo-alt-fill'></i> {props.title}
+                            <i className='bi bi-geo-alt-fill'></i> {props.title}
                         </h5>
                         <div className='card-details d-flex justify-content-between'>
                             <p className='card-detail-item'>
-                                <i class='bi bi-house'></i> {props.rooms} Rooms
+                                <i className='bi bi-house'></i> {props.rooms}{" "}
+                                Rooms
                             </p>
                             <p className='card-detail-item'>
-                                <i class='bi bi-rulers'></i> {props.mes} sq ft
+                                <i className='bi bi-rulers'></i> {props.mes} sq
+                                ft
                             </p>
                         </div>
                         <div className='row'>
