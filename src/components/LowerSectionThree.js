@@ -7,17 +7,19 @@ import Slider from "react-slick";
 function LowerSectionThree() {
     var settings = {
         dots: true,
-        infinite: false,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
-        initialSlide: 0,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: true,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
         responsive: [
             {
                 breakpoint: 1400,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true,
                 },
@@ -26,7 +28,7 @@ function LowerSectionThree() {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                     initialSlide: 2,
                 },
             },
@@ -41,7 +43,7 @@ function LowerSectionThree() {
     };
 
     return (
-        <div className='section-three container pb-5 pt-5'>
+        <div className='section-three container pt-5'>
             <div className='row'>
                 <div className='col'>
                     <h3 className='heading-main text-center mb-5'>
@@ -85,6 +87,36 @@ function LowerSectionThree() {
                                 rooms='4'
                                 mes='1,300'
                                 price='1,800,000'
+                            />
+                            <ProductCard
+                                title='Seattle, Washington'
+                                rooms='3'
+                                mes='1,100'
+                                price='1,750,000'
+                            />
+                            <ProductCard
+                                title='Chicago, Illinois'
+                                rooms='4'
+                                mes='1,250'
+                                price='2,000,000'
+                            />
+                            <ProductCard
+                                title='Boston, Massachusetts'
+                                rooms='5'
+                                mes='1,600'
+                                price='2,500,000'
+                            />
+                            <ProductCard
+                                title='Denver, Colorado'
+                                rooms='4'
+                                mes='1,400'
+                                price='1,950,000'
+                            />
+                            <ProductCard
+                                title='Las Vegas, Nevada'
+                                rooms='4'
+                                mes='1,300'
+                                price='1,600,000'
                             />
                         </Slider>
                     </div>

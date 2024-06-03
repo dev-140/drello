@@ -45,6 +45,12 @@ body {
 }
 
 .card {
+    .card-img-top {
+        object-fit: cover;
+        width: 100%;
+        height: 290px;
+    }
+
     .card-body {
         background-color: $dust-storm;
     }

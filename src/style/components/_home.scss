@@ -99,4 +99,13 @@
             }
         }
     }
+
+    .section-three {
+        padding-bottom: 100px;
+        overflow: hidden;
+
+        .slick-dots {
+            bottom: -50px;
+        }
+    }
 }
