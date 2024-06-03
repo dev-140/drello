@@ -7,13 +7,13 @@ import Slider from "react-slick";
 function LowerSectionThree() {
     var settings = {
         dots: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         infinite: true,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
+        autoplaySpeed: 4000,
+        cssEase: "cubic-bezier(0.600, -0.280, 0.735, 0.045)",
         responsive: [
             {
                 breakpoint: 1400,
