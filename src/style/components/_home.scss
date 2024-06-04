@@ -112,4 +112,17 @@
 
 .contact-main-container {
     background-color: $white;
+
+    .input-email {
+        background-color: $dust-storm;
+        @include montserrat(16px, 500);
+        padding: 10px 20px;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+
+        &::placeholder {
+            color: $black;
+        }
+    }
 }

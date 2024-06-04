@@ -245,4 +245,22 @@ body {
 
 .contact-main-container {
   background-color: #ffffff;
+}
+.contact-main-container .input-email {
+  background-color: #ddc7bb;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+.contact-main-container .input-email::-moz-placeholder {
+  color: #000000;
+}
+.contact-main-container .input-email::placeholder {
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

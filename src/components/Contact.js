@@ -34,20 +34,29 @@ function Contact() {
                                 <i className='bi bi-check-circle'></i> Chat live
                                 with our support team
                             </p>
-                            <p className='text text--main width--fit'>
+                            <p className='text text--main width--fit mb-5'>
                                 <i className='bi bi-check-circle'></i> Browse
                                 our FAQ
                             </p>
 
-                            <form method='post' onSubmit={handleSubmit}>
+                            <form
+                                method='post'
+                                onSubmit={handleSubmit}
+                                className='d-flex justify-content-center w-100'
+                            >
                                 <input
-                                    className='input-text'
+                                    className='input-email me-3 w-50'
                                     placeholder='Enter your Email Address'
                                     type='email'
                                     name='myInput'
                                 />
 
-                                <button type='submit'>Submit form</button>
+                                <button
+                                    type='submit'
+                                    className='btn btn-primary'
+                                >
+                                    Submit
+                                </button>
                             </form>
                         </div>
                     </div>
