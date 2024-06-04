@@ -66,8 +66,23 @@ body {
 
 .text {
     &--main {
-        @include montserrat(12, 700);
+        @include montserrat(12px, 700);
+    }
+
+    &--large {
+        @include montserrat(22px, 500);
+    }
+
+    &--normal {
+        @include montserrat(18px, 500);
+    }
+
+    &--black {
         color: $dark-main;
+    }
+
+    &--bold {
+        font-weight: 700 !important;
     }
 }
 

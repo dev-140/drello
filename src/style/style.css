@@ -64,9 +64,28 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 12;
+  font-size: 12px;
   font-style: normal;
+}
+.text--large {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 22px;
+  font-style: normal;
+}
+.text--normal {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+}
+.text--black {
   color: #2a1b12;
+}
+.text--bold {
+  font-weight: 700 !important;
 }
 
 .width--fit {
@@ -257,10 +276,20 @@ body {
   outline: none;
   border: none;
   border-radius: 8px;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .contact-main-container .input-email {
+    width: 100%;
+  }
 }
 .contact-main-container .input-email::-moz-placeholder {
   color: #000000;
 }
 .contact-main-container .input-email::placeholder {
   color: #000000;
+}
+
+.footer-main {
+  background-color: #ddc7bb;
 }/*# sourceMappingURL=style.css.map */

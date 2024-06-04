@@ -2,17 +2,13 @@ import React from "react";
 
 function Contact() {
     function handleSubmit(e) {
-        // Prevent the browser from reloading the page
         e.preventDefault();
 
-        // Read the form data
         const form = e.target;
         const formData = new FormData(form);
 
-        // You can pass formData as a fetch body directly:
         fetch("/some-api", { method: form.method, body: formData });
 
-        // Or you can work with it as a plain object:
         const formJson = Object.fromEntries(formData.entries());
         console.log(formJson);
     }
@@ -42,10 +38,10 @@ function Contact() {
                             <form
                                 method='post'
                                 onSubmit={handleSubmit}
-                                className='d-flex justify-content-center w-100'
+                                className='d-flex justify-content-center w-100 flex-column flex-md-row'
                             >
                                 <input
-                                    className='input-email me-3 w-50'
+                                    className='input-email mb-3 me-0 mb-md-0 me-md-3'
                                     placeholder='Enter your Email Address'
                                     type='email'
                                     name='myInput'

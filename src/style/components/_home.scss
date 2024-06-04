@@ -120,9 +120,18 @@
         outline: none;
         border: none;
         border-radius: 8px;
+        width: 50%;
+
+        @media (max-width: $md) {
+            width: 100%;
+        }
 
         &::placeholder {
             color: $black;
         }
     }
+}
+
+.footer-main {
+    background-color: $dust-storm;
 }
