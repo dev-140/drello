@@ -64,6 +64,46 @@ body {
     }
 }
 
+.TS-card {
+    width: 300px;
+    margin: auto;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: $dust-storm;
+
+    &__image {
+        width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 169px;
+        }
+    }
+
+    .card-profile-img {
+        border-radius: 100px;
+        overflow: hidden;
+        width: 58px;
+        height: 58px;
+        object-fit: cover;
+    }
+
+    &__rating {
+        background-color: $white;
+        border-radius: 8px;
+
+        .star {
+            color: $yellow;
+        }
+
+        .rating {
+            line-height: 24px;
+        }
+    }
+}
+
+// text
 .text {
     &--main {
         @include montserrat(12px, 700);
@@ -75,6 +115,10 @@ body {
 
     &--normal {
         @include montserrat(18px, 500);
+    }
+
+    &--16 {
+        @include montserrat(16px, 500);
     }
 
     &--black {

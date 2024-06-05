@@ -60,6 +60,41 @@ body {
   font-style: normal;
 }
 
+.TS-card {
+  width: 300px;
+  margin: auto;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #ddc7bb;
+}
+.TS-card__image {
+  width: 100%;
+}
+.TS-card__image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 169px;
+}
+.TS-card .card-profile-img {
+  border-radius: 100px;
+  overflow: hidden;
+  width: 58px;
+  height: 58px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.TS-card__rating {
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.TS-card__rating .star {
+  color: #ffc71e;
+}
+.TS-card__rating .rating {
+  line-height: 24px;
+}
+
 .text--main {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -79,6 +114,13 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-size: 18px;
+  font-style: normal;
+}
+.text--16 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
   font-style: normal;
 }
 .text--black {
@@ -288,6 +330,19 @@ body {
 }
 .contact-main-container .input-email::placeholder {
   color: #000000;
+}
+
+.about-container .slick-track {
+  display: flex !important;
+}
+.about-container .slick-slide {
+  height: inherit !important;
+}
+.about-container .slick-slide > div {
+  height: 100%;
+}
+.about-container .slick-slide > div .TS-card {
+  height: 100%;
 }
 
 .footer-main {
