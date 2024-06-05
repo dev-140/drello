@@ -133,6 +133,8 @@
 }
 
 .about-container {
+    overflow: hidden;
+
     .slick-track {
         display: flex !important;
     }
