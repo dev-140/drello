@@ -5,7 +5,7 @@ You can check my source code above!
 ## Or you can view it online!
 
 Just click this
-[LINK!](https://dev-140.github.io/truth-table-generator/)
+[LINK!](https://dev-140.github.io/dwello)
 
 ## Acknowledgements
 
