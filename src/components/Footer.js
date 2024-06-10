@@ -6,14 +6,14 @@ function Footer() {
         <div className='footer-main'>
             <div className=' container pb-5 pt-5'>
                 <div className='row'>
-                    <div className='col'>
-                        <img src={logo} />
+                    <div className='col-12 col-md'>
+                        <img src={logo} alt='dwello footer logo' />
                         <p className='text text--normal text--bold text--black mt-3'>
                             Bringing you closer to your dream home, one click at
                             a time.
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col-6 col-md'>
                         <p className='text text--large text--bold text--black'>
                             About
                         </p>
@@ -28,7 +28,7 @@ function Footer() {
                             Resources
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col-6 col-md'>
                         <p className='text text--large text--bold text--black'>
                             Support
                         </p>
@@ -44,7 +44,7 @@ function Footer() {
                             Terms of Service
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col-6 col-md'>
                         <p className='text text--large text--bold text--black'>
                             Find Us
                         </p>
@@ -56,7 +56,7 @@ function Footer() {
                             Newsletter
                         </p>
                     </div>
-                    <div className='col'>
+                    <div className='col-6 col-md'>
                         <p className='text text--large text--bold text--black'>
                             Our Social
                         </p>
