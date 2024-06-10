@@ -17,7 +17,7 @@ function ProductCard(props) {
                         </h5>
                         <div className='card-details d-flex justify-content-between'>
                             <p className='card-detail-item'>
-                                <i className='bi bi-house'></i> {props.rooms}{" "}
+                                <i className='bi bi-house'></i> {props.rooms}
                                 Rooms
                             </p>
                             <p className='card-detail-item'>
