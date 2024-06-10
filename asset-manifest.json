@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/dwello/static/css/main.01530e8f.css",
+    "main.js": "/dwello/static/js/main.38c14164.js",
+    "static/js/453.8e5be4ed.chunk.js": "/dwello/static/js/453.8e5be4ed.chunk.js",
+    "static/media/herro-image.png": "/dwello/static/media/herro-image.32e78b77f25962b11423.png",
+    "static/media/section-one-img.svg": "/dwello/static/media/section-one-img.edba06b24b9061fb1e599a644fadc942.svg",
+    "static/media/testimonial-room-2.svg": "/dwello/static/media/testimonial-room-2.d2eff0208be5dde851d1d832e2c46940.svg",
+    "static/media/profile-pic-1.svg": "/dwello/static/media/profile-pic-1.29c9dc9e1a7da929deb99add8ba1b95b.svg",
+    "static/media/profile-pic-2.svg": "/dwello/static/media/profile-pic-2.7e3a4685e38f746da03e9ea5b65e9876.svg",
+    "static/media/testimonial-room-3.svg": "/dwello/static/media/testimonial-room-3.4916f7ad52b45c5816d9b583c242085e.svg",
+    "static/media/testimonial-room-1.svg": "/dwello/static/media/testimonial-room-1.8cf25c07103b47aa051d995a5768314b.svg",
+    "static/media/profile-pic-3.svg": "/dwello/static/media/profile-pic-3.a3afb75a250e676303a4fca00203e859.svg",
+    "static/media/testimonial-room-4.jpeg": "/dwello/static/media/testimonial-room-4.1c1f017528b16b74ba83.jpeg",
+    "static/media/sample-prod.png": "/dwello/static/media/sample-prod.94b4f2b67acac53b3be4.png",
+    "static/media/profile-pic-4.webp": "/dwello/static/media/profile-pic-4.0e910a1d703cf9d2b94d.webp",
+    "static/media/testimonial-room-5.jpeg": "/dwello/static/media/testimonial-room-5.4902775f0e0150f99c3f.jpeg",
+    "static/media/profile-pic-5.webp": "/dwello/static/media/profile-pic-5.b44259e2b5cde3b84c59.webp",
+    "static/media/logo.svg": "/dwello/static/media/logo.7c969ce1309d021b2c73dfc4a0ab1cd2.svg",
+    "static/media/map-pin.svg": "/dwello/static/media/map-pin.35b8324b2e46c65ec7b7a9cfa3f0ff92.svg",
+    "static/media/handshake.svg": "/dwello/static/media/handshake.20067273e9b3a28814fbb78a92740af3.svg",
+    "static/media/service.svg": "/dwello/static/media/service.2817eb13d7d6cde05792d7c7fa141963.svg",
+    "static/media/slick.svg": "/dwello/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/document.svg": "/dwello/static/media/document.509cc04b99bdb256072a5f8f1d3aed5b.svg",
+    "static/media/slick.eot": "/dwello/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dwello/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/dwello/index.html",
+    "static/media/slick.woff": "/dwello/static/media/slick.295183786cd8a1389865.woff",
+    "main.01530e8f.css.map": "/dwello/static/css/main.01530e8f.css.map",
+    "main.38c14164.js.map": "/dwello/static/js/main.38c14164.js.map",
+    "453.8e5be4ed.chunk.js.map": "/dwello/static/js/453.8e5be4ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01530e8f.css",
+    "static/js/main.38c14164.js"
+  ]
+}
